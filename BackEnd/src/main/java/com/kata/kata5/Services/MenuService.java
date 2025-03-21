@@ -28,12 +28,13 @@ public class MenuService {
     }
 
     public Menu createMenu(MenuCreateDTO dto) {
-        Menu menu = new Menu();
-        menu.setPlate(dto.getPlate());
-        menu.setDescription(dto.getDescription());
-        menu.setImage(dto.getImage());
-        menu.setPrice(dto.getPrice());
+    Menu menu = new Menu();
+    menu.setPlate(dto.getPlate());
+    menu.setDescription(dto.getDescription());
+    menu.setImage(dto.getImage());
+    menu.setPrice(dto.getPrice());
 
-        return menuRepository.save(menu); // Sauvegarde et retour du menu
-    }
+    return menuRepository.save(menu);
+}
+
 }
