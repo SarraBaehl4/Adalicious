@@ -22,7 +22,7 @@ public void SetPlate(String plate) {this.plate = plate;}
 public String getDescription(){return description;}
 public void setDescription(String description) {this.description = description;}
 
-public String getImag(){return image;}
+public String getImage(){return image;}
 public void SetImage(String image) {this.image = image;}
 
 
